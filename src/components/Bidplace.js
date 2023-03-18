@@ -5,7 +5,7 @@ import image from "./ntf.jpeg";
 
 const Bidplace = () => {
   return (
-    <div className="bg-indigo-400 w-full px-10 flex flex-wrap lg:h-[65vh] md:h-[161vh] mb-10 pb-2">
+    <div className="w-full px-10 flex flex-wrap lg:h-[65vh] md:h-[161vh] mb-10 pb-2">
       <div className="md:h-3/5 lg:h-full lg:w-1/2 md:w-full md:grid justify-items-center w-full">
         <img
           src={image}
@@ -15,7 +15,7 @@ const Bidplace = () => {
       </div>
 
       <div className="lg:h-[65vh] w-full lg:w-1/2 md:w-full md:grid justify-items-center w-full">
-        <div className=" text-gray w-full mt-10 md:pl-20 text-4xl flex bg-indigo-300 ">
+        <div className=" text-gray w-full mt-10 md:pl-20 text-4xl flex  ">
           <p className="flex justify-content-center">
             <ion-icon name="arrow-back-circle-outline"></ion-icon>
             <ion-icon name="arrow-forward-circle-outline"></ion-icon>

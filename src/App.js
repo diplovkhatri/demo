@@ -10,7 +10,7 @@ function App() {
   return (
     <>
       <Navbar />
-      <div className="flex flex-col w-full h-auto bg-stone-300">
+      <div className="flex flex-col w-full h-auto">
         <Bidplace />
         <Content />
         <About />
