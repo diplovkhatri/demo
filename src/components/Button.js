@@ -39,11 +39,11 @@ const Button = () => {
   };
 
   return (
-    <div className="w-1/6 md:ml-5">
+    <div className="lg:w-1/6 md:ml-5 md:w-full">
       {!isconnected && (
         <button
-          className="shadow-2xl bg-stone-600 text-white 
-    font-[Poppins] px-6 rounded md:ml-8 hover:bg-slate-500
+          className="shadow-2xl bg-slate-600 text-white 
+    font-[Poppins] px-6 rounded md:ml-8 w-full hover:bg-slate-700
      duration-500"
           onClick={onConnect}
         >
@@ -51,7 +51,10 @@ const Button = () => {
         </button>
       )}
       {isconnected && (
-        <p className="w-full flex shadow-xl p-1 rounded-xl bg-slate-400 text-white overflow-hidden">
+        <p
+          onClick={onDesconnected}
+          className="w-full cursor-pointer flex shadow-xl p-1 rounded-xl bg-slate-400 text-white overflow-hidden"
+        >
           {accounts}
         </p>
       )}
