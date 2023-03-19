@@ -1,5 +1,6 @@
 import React from "react";
 import Countdown from "react-countdown";
+import Overlay from "../pages/popup";
 
 import image from "./ntf.jpeg";
 
@@ -82,14 +83,7 @@ const Bidplace = () => {
             </li>
           </div>
 
-          <button
-            className="shadow-2xl text-black mt-3 
-                        font-[Poppins] font-bold  text-2xl
-                         rounded-xl w-full h-[50px] 
-                          hover:bg-zinc-300 duration-500 bg-stone-500"
-          >
-            History
-          </button>
+          <Overlay />
         </div>
       </div>
     </div>

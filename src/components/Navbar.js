@@ -7,7 +7,7 @@ const Navbar = () => {
   let items = [
     { name: "DAO", link: "/vote" },
     { name: "Docs", link: "/documents" },
-    { name: "Discourse", link: "/discourse" },
+    { name: "History", link: "/history" },
     // { name: "Playground", link: "/playground" },
     // { name: "Nouns & Traits", link: "/nouns&traits" },
     // { name: "Language", link: "/language" },
@@ -15,17 +15,17 @@ const Navbar = () => {
   //   console.log(items);
   let [open, setOpen] = useState(false);
   return (
-    <div className=" container w-full text-2xl z-10 mt-2">
+    <div className="container w-full text-2xl z-10 mt-2 no-underline">
       <div className="md:flex items-center justify-between">
         <div className="font-bold text-2xl cursor-pointer flex items-center font-[Poppins] grid gap-2 grid-cols-2">
-          <span className="text-3xl">Nouns</span>
+          <span className="text-3xl">JUJU</span>
           <div className=" border-2 rounded-2xl border-zinc-300 text-sm p-2 overflow-hidden">
             Treaury: {treasury}
           </div>
         </div>
         <div
           onClick={() => setOpen(!open)}
-          className="text-3xl absolute right-8 top-5 cursor-pointer md:hidden flex "
+          className="text-3xl absolute right-8 top-5 cursor-pointer md:hidden "
         >
           <ion-icon name={open ? "close" : "menu"}></ion-icon>
         </div>
@@ -40,18 +40,18 @@ const Navbar = () => {
           {items.map((item) => (
             <li
               key={item.name}
-              className=" border-2 rounded-lg border-amber-50 md:ml-8 lg:text-2xl md:my-0 my-7"
+              className=" border-2 rounded-lg border-amber-50 md:ml-8 lg:text-2xl md:my-0 my-7 no-underline"
             >
               <a
                 href={item.link}
-                className="text-gray-800 hover:text-gray-400 duration-500"
+                className="no-underline text-gray-800 hover:text-gray-400 duration-500"
               >
                 {item.name}
               </a>
             </li>
           ))}
-          <Button>Connect</Button>
         </ul>
+        <Button>Connect</Button>
       </div>
     </div>
   );
