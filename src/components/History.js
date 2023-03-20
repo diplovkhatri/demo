@@ -34,7 +34,7 @@ const History = () => {
     },
   ];
   return (
-    <div className="container grid mt-4">
+    <div className="container font-rock grid mt-4">
       <div className="flex p-2 font-semibold text-2xl md:flex-wrap justify-between shadow-lg w-full">
         <div>JUJU ID</div>
         <div>WINNER ID</div>

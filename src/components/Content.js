@@ -3,7 +3,7 @@ import React from "react";
 const Content = () => {
   return (
     <>
-      <div className="w-full lg:px-80 grid lg:px-70 lg:grid-cols-2 sm:grid-cols-1">
+      <div className="font-rock w-full lg:px-80 grid lg:px-70 lg:grid-cols-2 sm:grid-cols-1">
         {/* <p>One Noun,Every Day,Forever</p> */}
         <div className="grid place-content-center h-96">
           <p className="font-bold text-3xl md:w-full md:text-5xl px-20">

@@ -15,17 +15,17 @@ const Navbar = () => {
   //   console.log(items);
   let [open, setOpen] = useState(false);
   return (
-    <div className="container w-full text-2xl z-40 mt-2 no-underline">
+    <div className="container font-rock w-full text-2xl z-40 mt-2 no-underline">
       <div className="md:flex items-center justify-between">
         <div className="grid gap-2 font-bold text-2xl cursor-pointer flex items-center font-[Poppins] grid gap-2 grid-cols-2">
-          <span className="text-3xl">JUJU</span>
+          <span className="text-3xl ">JUJU</span>
           <div className=" sm:ml-[-90px] sm:mr-[190px] font-bold border-2 rounded-2xl border-zinc-300 text-sm md:p-2 overflow-hidden">
             Treaury: {treasury}
           </div>
         </div>
         <div
           onClick={() => setOpen(!open)}
-          className="text-3xl absolute right-8 top-5 cursor-pointer md:hidden "
+          className="text-3xl absolute right-8 top-3 cursor-pointer md:hidden "
         >
           <ion-icon name={open ? "close" : "menu"}></ion-icon>
         </div>
@@ -34,8 +34,8 @@ const Navbar = () => {
         md:pb-0 pb-12 absolute md:static
         md:z-auto z-[-1] text-center left-0 w-full
         md:w-auto 
-        md:pl-0 pr-9 
-        ${open ? "top-15 bg-stone-300 z-40" : "top-[-500px]"}`}
+        md:pl-0 pr-9 lg:pr-96
+        ${open ? "top-15 bg-stone-300 sm:z-10" : "top-[-496px]"}`}
         >
           {items.map((item) => (
             <li
@@ -50,7 +50,7 @@ const Navbar = () => {
               </a>
             </li>
           ))}
-          <Button>Connect</Button>
+          <Button />
         </ul>
       </div>
     </div>

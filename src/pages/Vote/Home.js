@@ -7,7 +7,7 @@ import Treasury from "./Treasury";
 const Home = () => {
   return (
     <div>
-      <div className="flex flex-col w-full h-auto">
+      <div className="font-rock flex flex-col w-full h-auto">
         <Treasury />
         <Proposal />
       </div>

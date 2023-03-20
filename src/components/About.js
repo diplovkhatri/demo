@@ -45,7 +45,7 @@ function About() {
     },
   ];
   return (
-    <div className="lg:container lg:px-60">
+    <div className="lg:container lg:px-60 font-rock">
       <div className="lg:px-40 px-20 grid place-content-center">
         <h1 className="font-bold text-5xl tracking-widest">WTF ?</h1>
         <p className="mt-6">

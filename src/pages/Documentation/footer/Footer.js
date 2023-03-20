@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className="grid  h-[8vh] mt-20">
+    <div className="font-rock grid  h-[8vh] mt-20">
       <div className="grid place-content-center text-xl">
         JUJU center serves as the knowledge center & resources hub for JUJU DAO
       </div>

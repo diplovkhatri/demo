@@ -16,7 +16,7 @@ const Footer = () => {
     },
   ];
   return (
-    <div className="w-full bg-white">
+    <div className=" font-rock w-full bg-white">
       <div className="mx-auto grid grid-cols-1 lg:w-1/4 md:w-full sm:w-full">
         <ul
           className="

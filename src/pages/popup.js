@@ -10,13 +10,17 @@ const Overlay = () => {
 
   return (
     <button
-      className="shadow-2xl text-black mt-3 
+      className="font-rock shadow-2xl text-black mt-3 sm:z-40 
                         font-[Poppins] font-bold  text-2xl
                          rounded-xl w-full h-[50px] 
                           hover:bg-zinc-300 duration-500"
     >
-      <a href="" className="no-underline text-black" onClick={handleShow}>
-        connnect
+      <a
+        href=""
+        className="no-underline cursor-pointer text-black"
+        onClick={handleShow}
+      >
+        history
       </a>
 
       <Modal show={show} onHide={handleClose}>

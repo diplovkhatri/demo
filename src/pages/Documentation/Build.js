@@ -25,7 +25,7 @@ const Build = () => {
     },
   ];
   return (
-    <div className="grid grid-cols-1 mt-20 lg:w-full place-content-center">
+    <div className="font-rock grid grid-cols-1 mt-20 lg:w-full place-content-center">
       <div className="w-7/12 pb-10 grid justify-self-center">
         <h2 className="font-bold text-4xl tracking-widest mb-3 w-2/3">
           Learn abot JUJU

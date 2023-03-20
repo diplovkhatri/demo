@@ -6,8 +6,8 @@ import image from "./ntf.jpeg";
 
 const Bidplace = () => {
   return (
-    <div className="container w-full px-10 flex -z-40 flex-wrap lg:h-[65vh] md:h-[161vh] mb-10 pb-2">
-      <div className="md:h-3/5 lg:h-full lg:w-1/2 md:w-full md:grid justify-items-center w-full">
+    <div className="container w-full px-10 flex  flex-wrap lg:h-[65vh] md:h-[161vh] mb-10 pb-2">
+      <div className="md:h-3/5 lg:h-full lg:z-40 lg:w-1/2 md:w-full md:grid justify-items-center w-full">
         <img
           src={image}
           alt=""
@@ -15,7 +15,7 @@ const Bidplace = () => {
         />
       </div>
 
-      <div className=" lg:h-[65vh] w-full lg:w-1/2 md:w-full md:grid justify-items-center w-full md:mt-[-80px] lg:mt-[20px]">
+      <div className=" lg:h-[65vh] z-40 w-full lg:w-1/2 md:w-full md:grid justify-items-center w-full md:mt-[-80px] lg:mt-[20px]">
         <div className="container text-gray w-full mt-10 md:pl-20 text-4xl flex ml-[-140px] ">
           <p className="mt-1 grid grid-cols-2 place-content-center">
             <a href="" className="no-underline text-black">

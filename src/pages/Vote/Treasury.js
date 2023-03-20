@@ -2,7 +2,7 @@ import React from "react";
 
 const Treasury = () => {
   return (
-    <div className="container bg-white w-full md:w-full mt-4">
+    <div className="container font-rock bg-white w-full md:w-full mt-4">
       <p className="text-stone-600 font-semibold text-2xl opacity-50">
         Governance
       </p>

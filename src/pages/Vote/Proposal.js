@@ -2,7 +2,7 @@ import React from "react";
 
 const Proposal = () => {
   return (
-    <div className="container flex flex-col h-auto">
+    <div className="container font-rock flex flex-col h-auto">
       <div className="flex justify-between h-[10vh]">
         <div className="grid content-center font-bold text-5xl m-2">
           Proposals

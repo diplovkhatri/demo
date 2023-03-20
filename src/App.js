@@ -9,7 +9,7 @@ import Navbar from "./components/Navbar";
 function App() {
   return (
     <>
-      <div className="flex flex-col w-full h-auto">
+      <div className="flex flex-col w-full h-auto font-rock">
         <Bidplace />
         <Content />
         <About />

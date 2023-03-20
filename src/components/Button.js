@@ -39,11 +39,12 @@ const Button = () => {
   };
 
   return (
-    <div className="lg:w-1/6 md:ml-5 md:w-full">
+    <div className="lg:mr-[-400px] lg:w-3/6 md:ml-5">
       {!isconnected && (
         <button
           className="shadow-2xl bg-slate-600 text-white 
-    font-[Poppins] px-6 rounded md:ml-8 w-full hover:bg-slate-700
+    font-[Poppins] px-6 grid place-content-center
+      rounded md:ml-8 w-full hover:bg-slate-700
      duration-500"
           onClick={onConnect}
         >
@@ -53,7 +54,9 @@ const Button = () => {
       {isconnected && (
         <p
           onClick={onDesconnected}
-          className="w-full cursor-pointer flex shadow-xl p-1 rounded-xl bg-slate-400 text-white overflow-hidden"
+          className="lg:w-full cursor-pointer flex 
+          shadow-xl p-1 rounded-xl bg-slate-400
+           text-white overflow-hidden"
         >
           {accounts}
         </p>

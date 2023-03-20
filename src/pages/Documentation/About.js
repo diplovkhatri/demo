@@ -25,7 +25,7 @@ const About = () => {
     },
   ];
   return (
-    <div className="grid grid-cols-1 lg:w-full place-content-center mt-20">
+    <div className="font-rock grid grid-cols-1 lg:w-full place-content-center mt-20">
       <div className="w-7/12 pb-10 grid justify-self-center">
         <h2 className="font-bold text-4xl sm:w-full tracking-widest mb-3 lg:w-2/3">
           Learn about JUJU
