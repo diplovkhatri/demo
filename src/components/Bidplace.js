@@ -60,10 +60,10 @@ const Bidplace = () => {
             className="w-5/6 border-slate-300 rounded-md shadow-sm  pl-12"
           />
           <button
-            className="shadow-2xl text-black 
+            className="shadow-2xl text-white 
                         font-[Poppins] font-bold 
                           px-6 rounded-xl md:ml-8 md:w-1/6  
-                          hover:bg-zinc-300 duration-500 bg-stone-500"
+                          hover:bg-zinc-300 duration-500 bg-black"
           >
             Place bid
           </button>

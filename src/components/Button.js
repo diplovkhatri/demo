@@ -39,10 +39,10 @@ const Button = () => {
   };
 
   return (
-    <div className="lg:mr-[-330px]  md:ml-5">
+    <div className="lg:mr-[-330px]  md:ml-5 font-rock">
       {!isconnected && (
         <button
-          className="shadow-2xl bg-slate-600 text-white 
+          className="shadow-2xl bg-black font-rock text-white 
     font-[Poppins] px-6 grid place-content-center
       rounded md:ml-8 w-full hover:bg-slate-700
      duration-500"

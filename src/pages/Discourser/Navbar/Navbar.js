@@ -492,7 +492,7 @@ export default function Navbar() {
                             key={item.name}
                             as="a"
                             href={item.href}
-                            className="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-gray-900 hover:bg-gray-50"
+                            className="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-white hover:bg-gray-50"
                           >
                             {item.name}
                           </Disclosure.Button>
@@ -506,7 +506,7 @@ export default function Navbar() {
                 <a
                   role="button"
                   href="#"
-                  className="-mx-3 block rounded-lg py-2.5 px-3 text-base font-semibold leading-7 text-white-900 bg-indigo-500 hover:bg-gray-50"
+                  className="-mx-3 block rounded-lg py-2.5 px-3 text-base font-semibold leading-7 text-white bg-black hover:bg-gray-50"
                 >
                   JUJU.wtf
                 </a>
