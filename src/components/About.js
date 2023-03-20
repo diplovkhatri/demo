@@ -46,7 +46,7 @@ function About() {
   ];
   return (
     <div className="lg:container lg:px-60 font-rock">
-      <div className="lg:px-40 px-20 grid place-content-center">
+      <div className="lg:px-40 font-rock px-20 grid place-content-center">
         <h1 className="font-bold text-5xl tracking-widest">WTF ?</h1>
         <p className="mt-6">
           Nouns are an experimental attempt to improve the formation of on-chain
@@ -57,7 +57,7 @@ function About() {
         </p>
 
         {data.map((item) => (
-          <Accordion className="mb-2">
+          <Accordion className="mb-2 font-rock">
             <Accordion.Item eventKey="0">
               <Accordion.Header>{item.heading}</Accordion.Header>
               <Accordion.Body>{item.description}</Accordion.Body>

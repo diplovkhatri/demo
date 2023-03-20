@@ -7,8 +7,8 @@ const Navbar = () => {
   let items = [
     { name: "DAO", link: "/vote" },
     { name: "Docs", link: "/documents" },
-    { name: "Discourser", link: "/discourser" },
-    // { name: "History", link: "/history" },
+    // { name: "Discourser", link: "/discourser" },
+    { name: "History", link: "/history" },
     // { name: "Playground", link: "/playground" },
     // { name: "Nouns & Traits", link: "/nouns&traits" },
     // { name: "Language", link: "/language" },
