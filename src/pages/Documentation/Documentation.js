@@ -10,6 +10,7 @@ import Top from "./Top";
 const Documentation = () => {
   return (
     <>
+      <Navbar />
       <Top />
       <About />
       <Build />
