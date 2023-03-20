@@ -39,7 +39,7 @@ const Button = () => {
   };
 
   return (
-    <div className="lg:mr-[-400px] lg:w-3/6 md:ml-5">
+    <div className="lg:mr-[-330px]  md:ml-5">
       {!isconnected && (
         <button
           className="shadow-2xl bg-slate-600 text-white 
