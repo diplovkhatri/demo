@@ -2,36 +2,19 @@ import React from "react";
 
 const Content = () => {
   return (
-    <>
-      <div className="font-rock w-full lg:px-80 grid lg:px-70 lg:grid-cols-2 sm:grid-cols-1">
-        {/* <p>One Noun,Every Day,Forever</p> */}
-        <div className="grid place-content-center h-96">
-          <p className="font-bold text-3xl md:w-full md:text-5xl px-20">
-            One Noun,Every Day,Forever
-          </p>
-          <p className="text-xl flex md:w-full px-20  items-strach">
-            Behold, an infinite work of art! Nouns is a community-owned brand
-            that makes a positive impact by funding ideas and fostering
-            collaboration. From collectors and technologists, to non-profits and
-            brands, Nouns is for everyone.
-          </p>
-        </div>
-        <div className="grid place-content-center">VIDEO</div>
-        <div className="grid place-content-center lg:h-96 bg-indigo-200 md:hidden ">
-          IMAGEhbksdfkhk
-        </div>
-        <div className="grid place-content-center h-96">
-          <p className="font-bold text-3xl md:w-full md:text-5xl px-20">
-            Download the Free iso App
-          </p>
-          <p className="text-xl flex md:w-full px-20  items-strach">
-            Every new Noun pushed right to your pocket! View the current
-            auction, remix your own Noun, and explore the entire history
-            directly from the app.
-          </p>
-        </div>
+    <div className="container grid place-content-center w-full px-32 p-4">
+      <div className=" font-rock grid place-content-center p-0">
+        <p className="font-semibold text-2xl grid place-content-center">
+          Every 24 hour one JUJU arrive
+        </p>
+        <p className="text-xl px-32 whitespace-normal grid place-content-center">
+          See! An endless work of art! JUJU is community-owned DAO that has a
+          good social impact through supporting initiatives and encouraging
+          teamwork.JUJU is for everyone,from techies and nonprofit organization
+          to collectors and businesses.
+        </p>
       </div>
-    </>
+    </div>
   );
 };
 

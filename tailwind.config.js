@@ -5,6 +5,7 @@ module.exports = {
     extend: {},
     fontFamily: {
       rock: ['"RocknRoll One"', '"sans-serif"'],
+      bolded: ['"Rubik Wet Paint"', '"sans-serif"'],
     },
   },
   plugins: [],

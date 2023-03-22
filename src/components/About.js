@@ -4,12 +4,12 @@ import Accordion from "react-bootstrap/Accordion";
 function About() {
   const data = [
     {
-      heading: "Summary",
+      heading: "JUJU",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, quas!",
     },
     {
-      heading: "Daily Acutions",
+      heading: "Acutions",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, quas!",
     },
@@ -19,53 +19,26 @@ function About() {
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, quas!",
     },
     {
-      heading: "Governance 'Slow Start'",
-      description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, quas!",
-    },
-    {
-      heading: "JUJU Traits",
-      description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, quas!",
-    },
-    {
-      heading: "On-Chart Artwork",
-      description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, quas!",
-    },
-    {
-      heading: "Noun Seeder Contract",
-      description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, quas!",
-    },
-    {
-      heading: "JUJUs Rewards",
+      heading: "NFTS",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, quas!",
     },
   ];
   return (
-    <div className="lg:container lg:px-60 font-rock">
-      <div className="lg:px-40 font-rock px-20 grid place-content-center">
-        <h1 className="font-bold text-5xl tracking-widest">WTF ?</h1>
-        <p className="mt-6">
-          Nouns are an experimental attempt to improve the formation of on-chain
-          avatar communities. While projects such as Cryptopunks have attempted
-          to bootstrap digital community and identity, Nouns attempt to
-          bootstrap identity, community, governance, and a treasury that can be
-          used by the community.
-        </p>
+    <div className="container lg:px-60 font-rock">
+      {data.map((item) => (
+        <div className="flex ">
+          <a
+            href=""
+            key={item.heading}
+            className="font-bold text-3xl list-none no-underline text-black p-3 "
+          >
+            {item.heading}
+          </a>
+        </div>
+      ))}
 
-        {data.map((item) => (
-          <Accordion className="mb-2 font-rock">
-            <Accordion.Item eventKey="0">
-              <Accordion.Header>{item.heading}</Accordion.Header>
-              <Accordion.Body>{item.description}</Accordion.Body>
-            </Accordion.Item>
-          </Accordion>
-        ))}
-
-        {/* <Accordion className="mb-2">
+      {/* <Accordion className="mb-2">
           <Accordion.Item eventKey="0">
             <Accordion.Header>Accordion Item #1</Accordion.Header>
             <Accordion.Body>
@@ -79,7 +52,6 @@ function About() {
             </Accordion.Body>
           </Accordion.Item>
         </Accordion> */}
-      </div>
     </div>
   );
 }
