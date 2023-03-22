@@ -21,7 +21,7 @@ const Overlay = () => {
         className="no-underline cursor-pointer text-white "
         onClick={handleShow}
       >
-        history
+        Bid history
       </a>
 
       <Modal show={show} onHide={handleClose}>

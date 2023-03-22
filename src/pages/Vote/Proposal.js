@@ -7,11 +7,17 @@ const Proposal = () => {
         <div className="grid content-center font-bold text-5xl m-2">
           Proposals
         </div>
-        <button className="border-2 m-3 w-1/3 rounded-2xl text-xl font-semibold lg:w-1/5 ">
-          <p className="opacity-40 m-2">submit proposal</p>
-        </button>
+        {/*  */}
+        <div className=" flex">
+          <p className="opacity-60 w-[600px]  grid place-content-center m-3 text-xl">
+            Connect wallet to make a propsal
+          </p>
+          <button className="border-4 m-3 w-1/3 bg-slate-900 text-white rounded-2xl text-xl font-semibold hover:bg-green-900 hover:border-green-300">
+            <p className="opacity-80 m-2">submit proposal</p>
+          </button>
+        </div>
+        {/*  */}
       </div>
-      <p className="opacity-40 text-xl">Connect wallet to make a propsal</p>
       {/* proposal */}
 
       <div className="flex flex-col border-2 p-3 rounded-2xl border-zinc-500 m-2">

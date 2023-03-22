@@ -16,16 +16,19 @@ const Navbar = () => {
   //   console.log(items);
   let [open, setOpen] = useState(false);
   return (
-    <div className="container font-rock  w-full text-2xl z-40 mt-2 no-underline mb-3">
+    <div className="container font-rock h-[80px] grid w-full text-2xl z-40 mt-2 no-underline mb-3">
       <div className="md:flex items-center justify-between h-4/3">
         <div className="grid gap-2 font-bold text-2xl cursor-pointer flex items-center font-[Poppins] grid grid-cols-2">
           <span className="text-3xl font-rock ">JUJU</span>
           <div
             className=" sm:ml-[-90px] sm:mr-[190px] 
           font-bold border-2 rounded-2xl
-          border-zinc-300 text-sm md:p-2
-          md:ml-4 md:w-full lg:w-full lg:mr-0
-          overflow-hidden hover:border-green-300 hover:p-3"
+          border-black text-sm md:p-2
+          md:ml-4 md:w-full  lg:w-[150px]
+          overflow-hidden hover:border-green-300 
+          hover:w-[200px] hover:h-[60px] hover:grid 
+          hover:text-xl hover:overflow-hidden 
+          hover:place-content-center"
           >
             Vault: {treasury}
           </div>
