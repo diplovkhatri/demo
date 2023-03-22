@@ -4,7 +4,10 @@ const Treasury = () => {
   return (
     <div className="container font-rock bg-white w-full md:w-full mt-4">
       <p className="font-bold text-3xl mt-4 mb-8">JUJU DAO</p>
-      <p>the vault</p>
+      <p className="opacity-60">
+        the vault of JUJU DAO is for the JUJU NFT holders for the long term
+        growth of the project
+      </p>
       <div className="w-full flex rounded-xl p-2 ">
         {/*  */}
         <div className="grid place-content-center bg-[#F4F4F4] hover:border-green-300 md:overflow-hidden shadow-xl p-2 m-2 rounded-xl border-black w-[560px] h-[232px]">
