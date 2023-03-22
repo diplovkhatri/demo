@@ -96,18 +96,21 @@ const Bidplace = () => {
           </p>
         </div>
         {/*  */}
-        <div className="relative w-[500px] left-5 h-[450px] rounded-xl">
+        <div className="relative w-[500px] left-5 h-[480px] rounded-xl">
           <img
             src={image}
             alt=""
-            className="absolute h-[450px] w-[500px] border-2 hover:border-green-600 rounded-xl"
+            className="absolute h-[480px] w-[500px] border-2 hover:border-green-600 rounded-xl"
           ></img>
           <div
             className="absolute top-[80%] 
           bg-opacity-50  grid place-content-center
-           w-[399px] h-[60px] bg-stone-200
+           w-[500px] h-[60px] bg-stone-200
            z-40 relative "
           >
+            <span className="opacity-70 font-bold text-2xl z-40 text-black grid place-content-center ">
+              Estimate Time
+            </span>
             <span className="font-bold text-2xl z-40 text-black ">
               1d:23h:59m:59s
             </span>
