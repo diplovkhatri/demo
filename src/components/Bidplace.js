@@ -82,7 +82,7 @@ const Bidplace = () => {
       lg:z-40 lg:w-1/2 md:w-full grid place-content-center"
       >
         {/*  */}
-        <div className="container opacity-70 pl-4  relative left-5 top-[-20px] text-gray w-full  md:pl-20 text-4xl flex ml-[-140px] ">
+        <div className="container opacity-70 pl-4  lg:relative lg:left-5 lg:top-[-20px] text-gray w-full  md:pl-20 text-4xl flex ml-[-140px] ">
           <p className="grid grid-cols-2 place-content-center">
             <a href="" className="no-underline text-black">
               <ion-icon name="arrow-back-circle-outline"></ion-icon>
@@ -96,11 +96,11 @@ const Bidplace = () => {
           </p>
         </div>
         {/*  */}
-        <div className="relative w-[500px] left-5 h-[480px] rounded-xl">
+        <div className="relative w-[550px] left-5 h-[480px] rounded-xl">
           <img
             src={image}
             alt=""
-            className="absolute h-[480px] w-[500px] border-2 hover:border-green-600 rounded-xl"
+            className="absolute h-[480px] w-[550px] border-2 hover:border-green-600 rounded-xl"
           ></img>
           <div
             className="absolute top-[80%] 
@@ -108,10 +108,10 @@ const Bidplace = () => {
            w-[500px] h-[60px] bg-stone-200
            z-40 relative "
           >
-            <span className="opacity-70 font-bold text-2xl z-40 text-black grid place-content-center ">
+            <span className="opacity-70 font-bold text-lg z-40 text-black grid place-content-center ">
               Estimate Time
             </span>
-            <span className="font-bold text-2xl z-40 text-black ">
+            <span className="font-bold text-xl z-40 text-black ">
               1d:23h:59m:59s
             </span>
           </div>
