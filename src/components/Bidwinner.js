@@ -4,7 +4,7 @@ import Overlay from "../pages/popup";
 
 import image from "./ntf.jpeg";
 
-const Bidplace = () => {
+const Bipwinner = () => {
   return (
     <div className="container w-full px-10 flex  flex-wrap lg:h-[65vh] md:h-[161vh] mb-10 pb-2">
       <div className="p-4 lg:h-[65vh] z-40 w-[50%] lg:w-1/2 md:w-full md:grid justify-items-center w-full md:mt-[-80px] lg:mt-[20px]">
@@ -30,13 +30,13 @@ const Bidplace = () => {
               BIDDING Address
             </span>
             <span className="font-bold text-lg m-2 overflow-hidden">
-              sdcfgt545678uygfgyt5tfgt
+              edcv4567yfcvy7897654efvc
             </span>
           </div>
         </div>
 
         {/* sd */}
-        <div className="bottom-20 container mx-auto px-20 h-12 w-full flex justify-evenly">
+        {/* <div className="bottom-20 container mx-auto px-20 h-12 w-full flex justify-evenly">
           <input
             type="text"
             placeholder="x+0.53"
@@ -50,7 +50,7 @@ const Bidplace = () => {
           >
             Place bid
           </button>
-        </div>
+        </div> */}
         <div className=" bottom-40 container mx-auto px-20  flex flex-col w-full">
           <div className="h-auto max-h-[11vh] overflow-hidden">
             <li className="flex justify-between">
@@ -92,7 +92,7 @@ const Bidplace = () => {
             </a>
           </p>
           <p className="text-2xl ml-2 grid place-content-center">
-            March 06,2023
+            March 05,2023
           </p>
         </div>
         {/*  */}
@@ -102,7 +102,7 @@ const Bidplace = () => {
             alt=""
             className="absolute h-[400px] w-[500px] border-2 hover:border-green-600 rounded-xl"
           ></img>
-          <div
+          {/* <div
             className="absolute top-[80%] 
           bg-opacity-50  grid place-content-center
            w-[399px] h-[60px] bg-stone-200
@@ -111,11 +111,11 @@ const Bidplace = () => {
             <span className="font-bold text-2xl z-40 text-black ">
               1d:23h:59m:59s
             </span>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
   );
 };
 
-export default Bidplace;
+export default Bipwinner;
