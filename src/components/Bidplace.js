@@ -82,8 +82,8 @@ const Bidplace = () => {
       lg:z-40 lg:w-1/2 md:w-full grid place-content-center"
       >
         {/*  */}
-        <div className="container opacity-70 pl-4  lg:relative lg:left-5 lg:top-[-20px] text-gray w-full  md:pl-20 text-4xl flex ml-[-140px] ">
-          <p className="grid grid-cols-2 place-content-center">
+        <div className="container opacity-70 pl-4  lg:relative lg:left-5 lg:top-[-20px] text-gray w-full text-3xl flex ml-[-140px] ">
+          <p className="grid grid-cols-2 place-content-center mt-2 mb-[-10px] gap-2">
             <a href="" className="no-underline text-black">
               <ion-icon name="arrow-back-circle-outline"></ion-icon>
             </a>
@@ -91,7 +91,7 @@ const Bidplace = () => {
               <ion-icon name="arrow-forward-circle-outline"></ion-icon>
             </a>
           </p>
-          <p className="text-2xl ml-2 grid place-content-center">
+          <p className="text-lg ml-2 mb-[-10px] grid place-content-center">
             March 06,2023
           </p>
         </div>
@@ -105,7 +105,7 @@ const Bidplace = () => {
           <div
             className="absolute top-[80%] 
           bg-opacity-50  grid place-content-center
-           w-[500px] h-[60px] bg-stone-200
+           w-[550px] h-[60px] bg-stone-200
            z-40 relative "
           >
             <span className="opacity-70 font-bold text-lg z-40 text-black grid place-content-center ">
