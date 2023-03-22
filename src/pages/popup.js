@@ -13,11 +13,12 @@ const Overlay = () => {
       className="font-rock shadow-2xl text-black mt-3 sm:z-40 
                         font-[Poppins] font-bold  text-2xl
                          rounded-xl w-full h-[50px] 
-                          hover:bg-zinc-300 duration-500"
+                          hover:border-green-900 hover:bg-green-600  duration-500
+                          border-4 border-black bg-slate-900"
     >
       <a
         href=""
-        className="no-underline cursor-pointer text-black"
+        className="no-underline cursor-pointer text-white "
         onClick={handleShow}
       >
         history

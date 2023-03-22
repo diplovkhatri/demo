@@ -7,8 +7,8 @@ const Navbar = () => {
   let items = [
     { name: "DAO", link: "/vote" },
     { name: "Docs", link: "/documents" },
-    // { name: "Discourser", link: "/discourser" },
-    { name: "History", link: "/history" },
+    { name: "Discourser", link: "/discourser" },
+    // { name: "History", link: "/history" },
     // { name: "Playground", link: "/playground" },
     // { name: "Nouns & Traits", link: "/nouns&traits" },
     // { name: "Language", link: "/language" },
@@ -16,8 +16,8 @@ const Navbar = () => {
   //   console.log(items);
   let [open, setOpen] = useState(false);
   return (
-    <div className="container font-rock w-full text-2xl z-40 mt-2 no-underline">
-      <div className="md:flex items-center justify-between">
+    <div className="container font-rock  w-full text-2xl z-40 mt-2 no-underline mb-3">
+      <div className="md:flex items-center justify-between h-4/3">
         <div className="grid gap-2 font-bold text-2xl cursor-pointer flex items-center font-[Poppins] grid grid-cols-2">
           <span className="text-3xl font-rock ">JUJU</span>
           <div
@@ -25,9 +25,9 @@ const Navbar = () => {
           font-bold border-2 rounded-2xl
           border-zinc-300 text-sm md:p-2
           md:ml-4 md:w-full lg:w-full lg:mr-0
-          overflow-hidden"
+          overflow-hidden hover:border-green-300 hover:p-3"
           >
-            Treaury: {treasury}
+            Vault: {treasury}
           </div>
         </div>
         <div
@@ -39,9 +39,9 @@ const Navbar = () => {
         <ul
           className={`md:flex md:items-center 
         md:pb-0 pb-12 absolute md:static
-        md:z-auto z-[-1] text-center left-0 w-full
+        md:z-auto z-[-1] text-center w-full
         md:w-auto 
-        md:pl-0 pr-9 lg:pr-96
+        md:pl-0 pr-9
         ${open ? "top-15 bg-stone-300 sm:z-10" : "top-[-496px]"}`}
         >
           {items.map((item) => (
@@ -57,7 +57,7 @@ const Navbar = () => {
               </a>
             </li>
           ))}
-          <Button />
+          <Button>Connect</Button>
         </ul>
       </div>
     </div>
