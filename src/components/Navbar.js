@@ -5,7 +5,7 @@ import Button from "./Button";
 const Navbar = () => {
   const treasury = 234565432;
   let items = [
-    { name: "DAO", link: "/vote" },
+    { name: "Dao", link: "/vote" },
     { name: "Docs", link: "/documents" },
     { name: "Discourser", link: "/discourser" },
     // { name: "History", link: "/history" },
@@ -49,7 +49,7 @@ const Navbar = () => {
           {items.map((item) => (
             <li
               key={item.name}
-              className=" border-2 rounded-lg border-amber-50 md:ml-8 lg:text-2xl md:my-0 my-7 no-underline"
+              className=" border-2 rounded-lg border-amber-50 md:ml-8 lg:text-xl md:my-0 my-7 no-underline"
             >
               <a
                 href={item.link}
