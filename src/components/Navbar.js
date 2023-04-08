@@ -19,7 +19,7 @@ const Navbar = () => {
     <div className="container font-rock h-[80px] grid w-full text-2xl z-40 mt-2 no-underline mb-3">
       <div className="md:flex items-center justify-between h-4/3">
         <div className="grid gap-2 font-bold text-2xl cursor-pointer flex items-center font-[Poppins] grid grid-cols-2">
-          <span className="text-3xl font-bolded ">JUJU</span>
+          <span className="text-3xl font-rock ">JUJU</span>
           <div
             className=" sm:ml-[-90px] sm:mr-[190px] 
           font-bold border-2 rounded-2xl

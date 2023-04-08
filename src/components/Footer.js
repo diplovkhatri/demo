@@ -19,7 +19,7 @@ const Footer = () => {
                 font-bold text-3xl h-36 p-2 flex justify-between"
         >
           {footeritem.map((item) => (
-            <li key={item.name} className="text-center font-bolded">
+            <li key={item.name} className="text-center">
               <a href={item.link} className="grid no-underline text-black">
                 {item.name}
               </a>

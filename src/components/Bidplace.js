@@ -3,6 +3,7 @@ import Countdown from "react-countdown";
 import Overlay from "../pages/popup";
 
 import image from "./ntf.jpeg";
+import Popup from "./Popup";
 
 const Bidplace = () => {
   return (
@@ -75,14 +76,16 @@ const Bidplace = () => {
             </li>
           </div>
 
-          <Overlay />
+          <Popup />
+
+          {/* <Overlay /> */}
         </div>
       </div>
 
       {/* image */}
       <div
         className="md:h-3/5 lg:h-full  
-      lg:z-40 lg:w-1/2 md:w-full grid place-content-center"
+      lg:z-30 lg:w-1/2 md:w-full grid place-content-center"
       >
         {/*  */}
         <div className="container opacity-70 p-0 lg:relative lg:top-[-20px] text-gray w-full text-3xl flex ">
@@ -109,12 +112,12 @@ const Bidplace = () => {
             className="absolute top-[73%] 
           backdrop-blur-md bg-white/20  grid place-content-center
            w-[500px] h-[80px] bg-stone-200
-           z-40 relative "
+           z-30 relative "
           >
-            <span className="opacity-70 font-bold text-lg z-40 text-black grid place-content-center ">
+            <span className="opacity-70 font-bold text-lg z-30 text-black grid place-content-center ">
               Estimate Time
             </span>
-            <span className="font-bold text-xl z-40 text-black ">
+            <span className="font-bold text-xl z-30 text-black ">
               1d:23h:59m:59s
             </span>
           </div>
